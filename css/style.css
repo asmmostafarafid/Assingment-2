@@ -1,0 +1,122 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.top-bg{
+    background-color: #fffff0;
+    padding: 0 2.75rem;
+    padding-bottom: 50px;
+}
+
+.brand-logo{
+    width:300px;   
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    color:#2A1E59;
+}
+
+.nav-item a{
+    font-weight: 700;
+}
+
+.text-green{
+    color: #76C27E;
+}
+.banner img{
+    width:100%;
+}
+.backpack-card{
+    border:none;
+}
+.contact-card-img{
+    width: 140px;
+}
+
+.bag-card{
+    border:none;
+    border-radius: 10px;
+}
+.bag-card-img{
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin:20px;
+}
+.bag-card-title{
+    color:#363958;
+}
+.backpack-card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.btn-buy{
+    padding: 10px 20px;
+    background-color: #2A1E59;
+    color: #fff;
+}
+
+.btn-buy:hover{
+    color: #fff;
+}
+
+.main-title{
+    color: #363958;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card-title{
+    color:#363958;
+}
+
+.contact-block{
+    width:50%;
+    padding: 40px 0;
+}
+
+.btn-send{
+    padding: 10px 20px;
+    border: 2px solid #2A1E59;
+    color: #2A1E59;
+    font-weight: 700;
+    transition: .5s;
+}
+.btn-send:hover{
+    padding: 10px 20px;
+    background-color: #2A1E59;
+    color: #fff;
+    font-weight: 700;
+}
+
+.light-bg{
+    background-color: #fdfde7;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .brand-logo{
+        width:180px;   
+    }   
+    .top-bg{
+        padding: 0 0.75rem;
+    }
+    .contact-block{
+        width:80%;
+        text-align: center;
+    }
+    .banner-img{
+        margin-top: 50px;
+    }
+    .backpack-card{
+        text-align: center;
+    }
+    .main-title{
+        text-align: center;
+    }
+}
